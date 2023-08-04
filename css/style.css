@@ -89,8 +89,9 @@ footer {
   transform: scale(1.1);
 }
 .som {
-  margin-top: -10px;
-  font-size: 13px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .som img {
     width: 15px;
