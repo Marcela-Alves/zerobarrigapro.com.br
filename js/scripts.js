@@ -5,7 +5,7 @@ function randomIntFromInterval(min, max) {
 }
 
 function setInitialVisitors() {
-  let initialVisitors = randomIntFromInterval(650, 800);
+  let initialVisitors = randomIntFromInterval(500, 800);
   visitorsSpan.textContent = initialVisitors;
 }
 
@@ -15,18 +15,18 @@ function updateVisitors() {
   let newVisitors = currentVisitors + randomDelta;
   if (newVisitors < 97) {
     newVisitors += randomIntFromInterval(1, 9);
-  } else if (newVisitors > 638) {
+  } else if (newVisitors > 600) {
     newVisitors -= randomIntFromInterval(1, 9);
   }
   visitorsSpan.textContent = newVisitors;
   
   setTimeout(() => {
     updateVisitors();
-  }, 3000);
+  }, 2700);
 }
 
 setInitialVisitors();
 
 setTimeout(() => {
   updateVisitors();
-}, 3000);
+}, 2700);
