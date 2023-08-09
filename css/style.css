@@ -59,7 +59,7 @@ body {
 }
 
 footer {
-  padding: 50px 50px;
+  padding: 30px 50px;
   background-color: #000;
   background-size: cover;
 }
@@ -89,10 +89,8 @@ footer {
   transform: scale(1.1);
 }
 .som {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: bold;
-}
+  margin-top: -5px;
+  font-size: 15px;}
 .som img {
     width: 15px;
     margin-right: 8px;
