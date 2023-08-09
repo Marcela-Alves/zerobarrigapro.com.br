@@ -5,7 +5,7 @@ function randomIntFromInterval(min, max) {
 }
 
 function setInitialVisitors() {
-  let initialVisitors = randomIntFromInterval(500, 800);
+  let initialVisitors = randomIntFromInterval(400, 600);
   visitorsSpan.textContent = initialVisitors;
 }
 
